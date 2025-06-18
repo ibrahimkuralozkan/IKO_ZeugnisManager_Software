@@ -81,7 +81,7 @@ namespace IKO_ZeugnisManager_Software
             this.Controls.Add(mainPanel);
             CenterPanel();
             
-
+             
 
             Label lblTitle = new Label
             {
