@@ -1,0 +1,31 @@
+﻿{
+  "Versiyon": 0,
+  "Ogrenciler": [
+    {
+     
+      "AdSoyad": "Ali, Yilmaz",
+      "Dogum": "2018-04-17T00:00:00",
+      "Seiteneinsteigergruppe": "2025-05-15T00:00:00+02:00",
+      "Klasse": "1a",
+      "Schuljahr": "2024/25",
+      "Halbjahr": "2. Halbjahr",
+      "Fehlstunden": 0,
+      "Unentschuldigt": 0,
+      "Verspaetungen": 0,
+      "ReligionTeilnahme": true,
+      "Konferenzdatum": null,
+      "SchuleingangsphaseJa": null,
+      "WiederbeginnWochentag": null,
+      "WiederbeginnDatum": null,
+      "WiederbeginnUhrzeit": "",
+      "AllgemeineBemerkungText": "",
+      "AllgemeineBemerkungJa": null,
+      "Notlar": {},
+      "Aciklamalar": {}
+    }
+
+
+
+
+  ]
+}
