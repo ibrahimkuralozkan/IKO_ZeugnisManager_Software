@@ -1,0 +1,93 @@
+﻿Version_2
+1a ok
+1b -
+2a ok
+2b -
+3a ok
+3b ok
+4a -
+4b -
+4c -
+se 1a, 1b, 2a, 2b, 3a, 3b -
+se 4a, 4b, 4c ok
+
+Version_3 (Gesamtnote)
+1a ok
+1b -
+2a ok
+2b -
+3a ok
+3b ok
+4a -
+4b -
+4c -
+se 1a, 1b, 2a, 2b ok
+se 4a, 4b, 4c -
+
+version 4 4ncu sinif acikalamar cözüldü, yazi boyutu otamatiklestirtrildi
+
+1a gerek yok
+1b gerek yok
+2a gerek yok
+2b gerek yok
+3a gerek yok
+3b gerek yok
+4a -
+4b -
+4c -
+se 1a, 1b, 2a, 2b, 3a, 3b -
+se 4a, 4b, 4c ok
+
+
+version 5_16.06 se birlestirmeler ve gregor gaz
+
+
+1a -
+1b ok
+2a ok
+2b -
+3a ok
+3b ok
+4a ok
+4b ok
+4c ok
+
+
+SE
+
+1a ok
+1b ok
+2a -
+2b -
+3a zaten yok
+3b zaten yok
+4a ok
+4b ok
+4c ok
+
+
+version 5_16.06 se birlestirmeler ve checked box
+
+
+1a ok
+1b ok
+2a ok
+2b ok
+3a ok
+3b ok
+4a ok
+4b ok
+4c ok
+
+
+SE
+
+1a ok
+1b ok
+2a ok
+2b ok
+3a zaten yok
+3b zaten yok
+4a -
+4b ok
+4c ok

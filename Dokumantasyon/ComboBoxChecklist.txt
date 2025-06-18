@@ -1,0 +1,50 @@
+﻿| Aşama | Yapılacak Değişiklik                               | Açıklama / Kod Yeri                                                                                                                             | Not                                                                               |
+| ----- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 1     | ComboBox'ları tanımla                              | `InitNotlar()` içinde ilgili üst başlık (`if (baslik.Key == "Englisch" && SinifUc())`)                                                          | Her bir alt alan için bir `ComboBox` ekle (örnek: Rechtschreiben\_Gesamtnote vs.) |
+| 2     | ComboBox'a `Tag` özelliği ver                      | `cmb.Tag = "Rechtschreiben_Gesamtnote"` gibi                                                                                                    | JSON anahtarına bağlamak için kullanılır                                          |
+| 3     | ComboBox'ları `GroupBox`'a yerleştir               | Her ComboBox için ayrı `Panel` kullan (şık görünüm ve pozisyonlama için)                                                                        | `pnl.Controls.Add(lbl);`, `pnl.Controls.Add(cmb);`                                |
+| 4     | ComboBox değerlerini yükle                         | `CmbOgrenciNotSecimi_SelectedIndexChanged` içinde `Englisch` GroupBox’ını bul → tüm `ComboBox`’ları gez → `Tag` değerine göre JSON’dan veri çek | `cmb.SelectedItem = aciklamalar[cmb.Tag];`                                        |
+| 5     | ComboBox’tan alınan değeri JSON’a kaydet           | `BtnNotKaydet_Click` içinde aynı `GroupBox` ve `ComboBox`’ları gez → `cmb.Tag` ile JSON’a yaz                                                   | `aciklamalar[cmb.Tag] = cmb.SelectedItem?.ToString() ?? "---------"`              |
+| 6     | PDF'e aktarırken bu alanları PDF’e yaz             | `BtnPdfOlustur_Click` içinde `form.SetField("txt_Gesamtnote_XXX", value)`                                                                       | Tag’e göre PDF alan adlarıyla eşleşmeli                                           |
+| 7     | Öğrenci oluşturulurken başlangıç değerini ver      | `BtnKaydet_Click` içinde `new Ogrenci { Aciklamalar = new Dictionary<string,string> { ... }}`                                                   | `"Rechtschreiben_Gesamtnote" = "---------"` gibi                                  |
+| 8     | JSON'dan okuma ve yazma işlemi çalışıyorsa test et | `SaveToJson()`, `LoadFromJson()`                                                                                                                | Değiştirmen gerekmez ama her şey doğru aktarılıyor mu kontrol et                  |
+
+
+| Grup (GroupBox) | ComboBox Etiketi (Tag)       |
+| --------------- | ---------------------------- |
+| Englisch        | Rechtschreiben\_Gesamtnote   |
+| Englisch        | Lesen\_Gesamtnote            |
+| Englisch        | Sprachgebrauch\_Gesamtnote   |
+| Mathematik      | Mathe\_Rechnen\_Gesamtnote   |
+| Mathematik      | Mathe\_Geometrie\_Gesamtnote |
+| Sachunterricht  | Sachunterricht\_Gesamtnote   |
+| Kunst           | Kunst\_Gesamtnote            |
+
+
+
+| Sınıf | Konular Dosyası  | Öğrenciler Dosyası   |
+| ----- | ---------------- | -------------------- |
+| 1a    | `konular_1.json` | `ogrenciler_1a.json` |
+| 1b    | `konular_1.json` | `ogrenciler_1b.json` |
+| 2a    | `konular_2.json` | `ogrenciler_2a.json` |
+| 2b    | `konular_2.json` | `ogrenciler_2b.json` |
+| 3a    | `konular_3.json` | `ogrenciler_3a.json` |
+| 3b    | `konular_3.json` | `ogrenciler_3b.json` |
+| 4a    | `konular_4.json` | `ogrenciler_4a.json` |
+| 4b    | `konular_4.json` | `ogrenciler_4b.json` |
+| 4c    | `konular_4.json` | `ogrenciler_4c.json` |
+
+
+
+
+| Sınıf | Konular Dosyası                 | Öğrenciler Dosyası                  |
+| ----- | ------------------------------- | ----------------------------------- |
+| 1a    | `konular_seiteneinstieg_1.json` | `ogrenciler_seiteneinstieg_1a.json` |
+| 1b    | `konular_seiteneinstieg_1.json` | `ogrenciler_seiteneinstieg_1b.json` |
+| 2a    | `konular_seiteneinstieg_2.json` | `ogrenciler_seiteneinstieg_2a.json` |
+| 2b    | `konular_seiteneinstieg_2.json` | `ogrenciler_seiteneinstieg_2b.json` |
+| 3a    | `konular_seiteneinstieg_3.json` | `ogrenciler_seiteneinstieg_3a.json` |
+| 3b    | `konular_seiteneinstieg_3.json` | `ogrenciler_seiteneinstieg_3b.json` |
+| 4a    | `konular_seiteneinstieg_4.json` | `ogrenciler_seiteneinstieg_4a.json` |
+| 4b    | `konular_seiteneinstieg_4.json` | `ogrenciler_seiteneinstieg_4b.json` |
+| 4c    | `konular_seiteneinstieg_4.json` | `ogrenciler_seiteneinstieg_4c.json` |

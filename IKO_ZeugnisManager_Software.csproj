@@ -1,0 +1,92 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>icon.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<!-- Silinen veya var olmayan içerikler -->
+	<ItemGroup>
+		<None Remove="AppData\*.json" />
+		<None Remove="AppData\*.pdf" />
+		<None Remove="AppData\DejaVuSans.ttf" />
+	</ItemGroup>
+
+	<!-- PDF ve JSON içerikleri -->
+	<ItemGroup>
+		<Content Include="AppData\*.pdf" CopyToOutputDirectory="PreserveNewest" />
+		<Content Include="AppData\konular_*.json" CopyToOutputDirectory="PreserveNewest" />
+		<Content Include="AppData\konular_seiteneinstieg_*.json" CopyToOutputDirectory="PreserveNewest" />
+		<Content Include="AppData\ogrenciler_*.json" CopyToOutputDirectory="PreserveNewest" />
+		<Content Include="AppData\ogrenciler_seiteneinstieg_*.json" CopyToOutputDirectory="PreserveNewest" />
+	</ItemGroup>
+
+	<!-- Genel içerik dosyaları -->
+	<ItemGroup>
+		<Content Include="AppData\DejaVuSans.ttf">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="AppData\formulierungen.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="AppData\formulierungen_vergangenheit_klein.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<!-- Tüm imzalar wildcard ile -->
+	<ItemGroup>
+		<Content Include="AppData\Imzalar\*.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<!-- Gömülü görseller -->
+	<ItemGroup>
+		<EmbeddedResource Include="Assets\icon.ico">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<!-- NuGet bağımlılıkları -->
+	<ItemGroup>
+		<PackageReference Include="itext7" Version="9.1.0" />
+		<PackageReference Include="iTextSharp" Version="5.5.13.3" />
+		<PackageReference Include="MaterialSkin.2" Version="2.3.1" />
+	</ItemGroup>
+
+	<!-- Designer dosyaları -->
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Properties\Settings.Designer.cs">
+			<DesignTimeSharedInput>True</DesignTimeSharedInput>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Settings.settings</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<!-- Resource -->
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<!-- Settings -->
+	<ItemGroup>
+		<None Update="Properties\Settings.settings">
+			<Generator>SettingsSingleFileGenerator</Generator>
+			<LastGenOutput>Settings.Designer.cs</LastGenOutput>
+		</None>
+	</ItemGroup>
+
+</Project>

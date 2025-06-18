@@ -1,0 +1,110 @@
+{
+  "Leistungsbereitschaft": [
+    "… folgte dem Unterricht aufmerksam.",
+    "… beteiligte sich aktiv am Unterricht.",
+    "… bereicherte den Unterricht durch sachgerechte Beiträge.",
+    "… arbeitete konzentriert über einen längeren Zeitraum.",
+    "… erkannte Schwierigkeiten und suchte Unterstützung.",
+    "… setzte Arbeitsanweisungen selbstständig um."
+  ],
+  "Zuverlässigkeit/Sorgfalt": [
+    "… erledigte schriftliche Arbeiten sorgfältig.",
+    "… arbeitete in einem angemessenen Arbeitstempo.",
+    "… hielt Lern- und Arbeitsmaterialien sorgfältig und vollständig bereit.",
+    "… erledigte häusliche Arbeiten pflichtbewusst."
+  ],
+  "Sozialverhalten": [
+    "… konnte Kontakt zu Mitschülern vertiefen.",
+    "… zeigte sich Lehrern und Mitschülern gegenüber aufgeschlossen.",
+    "… verhielt sich Mitschülern und Lehrern gegenüber respektvoll und freundlich.",
+    "… löste Streit und Konflikte friedlich und selbstständig.",
+    "… zeigte sich einsichtig bei Schwierigkeiten.",
+    "… hielt die vereinbarten Regeln der Schule und der Klasse ein.",
+    "… war hilfsbereit und konnte gut mit anderen zusammenarbeiten.",
+    "… übernahm Aufgaben für die Klassengemeinschaft."
+  ],
+  "Rechtschreiben": [
+    "… beachtet die Lineatur und das Schriftbild ist ordentlich.",
+    "… kann fehlerfrei abschreiben.",
+    "… schreibt Lernwörter und geübte Sätze richtig aus dem Gedächtnis.",
+    "… hält beim Schreiben Wortgrenzen ein.",
+    "… wendet erlernte Rechtschreibstrategien an.",
+    "… findet sich im Wörterbuch zurecht."
+  ],
+  "Lesen – mit Texten und Medien umgehen": [
+    "… zeigt Freude und Interesse am Lesen.",
+    "… kann einfache Texte lesen und verstehen.",
+    "… liest Arbeitsaufträge und handelt danach.",
+    "… kann Texte fließend vorlesen.",
+    "… trägt kurze Texte auswendig vor.",
+    "… beantwortet einfache Fragen zu einem Lesetext."
+  ],
+  "Sprachgebrauch – Sprechen und Zuhören / Schreiben": [
+    "… spricht laut und deutlich.",
+    "… verfügt über einen altersgemäßen Wortschatz.",
+    "… spricht in vollständigen und zusammenhängenden Sätzen.",
+    "… hält Gesprächsregeln ein.",
+    "… erzählt anschaulich und treffend.",
+    "… kann aufmerksam zuhören, wenn andere erzählen.",
+    "… kann die erlernten Satzzeichen richtig einsetzen.",
+    "… kennt die Wortarten und kann sie unterscheiden.",
+    "… schreibt eigene Texte nach Vorlage.",
+    "… kann Texte nach Anleitung verbessern."
+  ],
+  "Arithmetik": [
+    "… orientiert sich sicher im Zahlenraum bis 100.",
+    "… löst Additionsaufgaben sicher.",
+    "… löst Subtraktionsaufgaben sicher.",
+    "… kann geübte Aufgabentypen sicher lösen.",
+    "… kann Kopfrechenaufgaben lösen.",
+    "… beherrscht die Kernaufgaben des Einmaleins.",
+    "… erkennt und beschreibt mathematische Zusammenhänge.",
+    "… wendet Rechenstrategien an.",
+    "… verwendet Fachbegriffe richtig."
+  ],
+  "Geometrie": [
+    "… benennt und beschreibt geometrische Formen und Körper.",
+    "… zeichnet sachgerecht mit Bleistift und Lineal.",
+    "… verwendet die geometrischen Fachbegriffe richtig.",
+    "… löst geometrische Aufgabenstellungen richtig."
+  ],
+  "Sachrechnen / Daten und Wahrscheinlichkeit": [
+    "… löst Sachaufgaben.",
+    "… kann Längen und Geldbeträge vergleichen, ordnen und mit ihnen rechnen.",
+    "… kann einfache Uhrzeiten ablesen und einstellen.",
+    "… versteht Tabellen und einfache Diagramme."
+  ],
+  "Sachunterricht": [
+    "… kann Vorwissen sachgerecht einbringen.",
+    "… kann Sachverhalte behalten und wiedergeben.",
+    "… verwendet Fachbegriffe richtig.",
+    "… kann einfache Versuche durchführen, beobachten und beschreiben.",
+    "… dokumentiert und präsentiert Arbeitsergebnisse."
+  ],
+  "Sport": [
+    "… zeigt Motivation und Anstrengungsbereitschaft.",
+    "… hält sich an vereinbarte Regeln und zeigt sich teamfähig in der Gruppe.",
+    "… erkundet Bewegungslandschaften neugierig und mit Geschick.",
+    "… beteiligt sich mit Freude an Lauf- und Wurfspiele und beachtet die Spielregeln."
+
+  ],
+  "Kunst": [
+    "… kann gezielt mit Schere und Kleber umgehen.",
+    "… kann mit Ausdauer Aufgaben künstlerisch umsetzen.",
+    "… ist kreativ in der Umsetzung.",
+    "… wendet erlernte Arbeitstechniken richtig an.",
+    "… beendet die Aufgaben in einer angemessenen Zeit.",
+    "… arbeitet sorgfältig und ordentlich."
+  ],
+  "Musik": [
+    "… zeigt Motivation und Interesse und arbeitet mündlich aktiv mit.",
+    "… singt die erarbeiteten Lieder mit.",
+    "… kann Rhythmen und Melodien sicher wiedergeben.",
+    "… kann musikalische Abläufe nachvollziehen, beschreiben und regelgerecht nachspielen."
+  ],
+  "Religion": [
+    "… bringt eigene Erfahrungen im Umgang mit anderen Menschen in den Unterricht ein.",
+    "… kann biblische Geschichten und andere religiöse Lerninhalte wiedergeben.",
+    "… kennt wichtige christliche Feste."
+  ]
+}

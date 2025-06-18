@@ -1,0 +1,107 @@
+{
+
+
+  "Leistungsbereitschaft": [
+    "… folgte dem Unterricht aufmerksam.",
+    "… beteiligte sich aktiv am Unterricht.",
+    "… bereicherte den Unterricht durch sachgerechte Beiträge.",
+    "… arbeitete konzentriert über einen längeren Zeitraum.",
+    "… erkannte Schwierigkeiten und suchte Unterstützung.",
+    "… setzte Arbeitsanweisungen selbstständig um."
+  ],
+  "Zuverlässigkeit/Sorgfalt": [
+    "… erledigte schriftliche Arbeiten sorgfältig.",
+    "… arbeitete in einem angemessenen Arbeitstempo.",
+    "… hielt Lern- und Arbeitsmaterialien sorgfältig und vollständig bereit.",
+    "… erledigte häusliche Arbeiten pflichtbewusst."
+  ],
+  "Sozialverhalten": [
+    "… gewöhnte sich schnell an den Schulalltag.",
+    "… nahm Kontakt zu Mitschülern auf.",
+    "… zeigte sich Lehrern und Mitschülern gegenüber aufgeschlossen.",
+    "… verhielt sich Mitschülern und Lehrern gegenüber respektvoll und freundlich.",
+    "… löste Streit und Konflikte friedlich und selbstständig.",
+    "… zeigte sich einsichtig bei Schwierigkeiten.",
+    "… hielt die vereinbarten Regeln der Schule und der Klasse ein.",
+    "… war hilfsbereit und konnte gut mit anderen zusammenarbeiten.",
+    "… übernahm Aufgaben für die Klassengemeinschaft."
+  ],
+  "Hören / Sprechen": [
+    "… konnte den Wortschatz erweitern.",
+    "… hört bei Gesprächen aufmerksam zu.",
+    "… versteht die Redebeiträge anderer.",
+    "… spricht laut und deutlich.",
+    "… kann Wörter und Sätze richtig nachsprechen.",
+    "… beteiligt sich an Gesprächen.",
+    "… hält Gesprächsregeln ein.",
+    "… kann sich verständlich mitteilen.",
+    "… wendet erlernte Strukturen an.",
+    "… spricht in vollständigen Sätzen."
+  ],
+  "Rechtschreiben / Schreiben": [
+    "… kennt die erlernten Buchstaben und Laute.",
+    "… hört die Stellung eines Lautes im Wort heraus.",
+    "… schreibt formgerecht.",
+    "… schreibt ordentlich in Druckschrift auf Lineatur.",
+    "… schreibt Wörter und Sätze fehlerfrei ab.",
+    "… hält beim Schreiben Wortgrenzen ein.",
+    "… schreibt einfache lautgetreue Wörter richtig auf.",
+    "… wendet einfache gelernte Strukturen an."
+  ],
+  "Lesen – mit Texten und Medien umgehen": [
+    "… kann einfache Wörter lesen.",
+    "… kann einfache kurze Sätze lesen.",
+    "… entnimmt den Sinn beim Lesen.",
+    "… zeigt Interesse am Lesen."
+  ],
+  "Arithmetik": [
+    "… orientiert sich sicher im Zahlenraum bis 20.",
+    "… löst Additionsaufgaben sicher.",
+    "… löst Subtraktionsaufgaben sicher.",
+    "… kann geübte Aufgabentypen sicher lösen.",
+    "… kann Kopfrechenaufgaben sicher lösen.",
+    "… erläutert Rechenwege verständlich.",
+    "… verwendet Fachbegriffe richtig."
+  ],
+  "Geometrie": [
+    "… benennt geometrische Grundformen.",
+    "… kann Muster fortsetzen und ordentlich ausmalen."
+  ],
+  "Sachrechnen / Daten und Wahrscheinlichkeit": [
+    "… versteht Rechengeschichten, löst sie selbstständig und sicher."
+  ],
+  "Sachunterricht": [
+    "… bringt Vorwissen sachgerecht ein.",
+    "… kann einfache Sachverhalte behalten und wiedergeben.",
+    "… verwendet Fachbegriffe richtig."
+  ],
+  "Sport": [
+    "… zeigt Motivation und Anstrengungsbereitschaft.",
+    "… hält sich an vereinbarte Regeln und zeigt sich teamfähig in der Gruppe.",
+    "… erkundet Bewegungslandschaften neugierig und mit Geschick.",
+    "… beteiligt sich mit Freude an Lauf- und Wurfspiele und beachtet die Spielregeln."
+
+  ],
+
+  "Kunst": [
+    "… kann gezielt mit Schere und Kleber umgehen.",
+    "… kann mit Ausdauer Aufgaben künstlerisch umsetzen.",
+    "… ist kreativ in der Umsetzung.",
+    "… kann erlernte Arbeitstechniken richtig anwenden.",
+    "… beendet die Aufgaben in einer angemessenen Zeit.",
+    "… arbeitet sorgfältig und ordentlich."
+  ],
+
+  "Musik": [
+    "… zeigt Motivation und Interesse und arbeitet mündlich aktiv mit.",
+    "… singt die erarbeiteten Lieder mit.",
+    "… hält die Regeln des gemeinsamen Musizierens ein.",
+    "… kann Rhythmen und Melodien sicher wiedergeben."
+  ],
+  "Religion": [
+    "… bringt eigene Erfahrungen im Umgang mit anderen Menschen in den Unterricht ein.",
+    "… kann biblische Geschichten und andere religiöse Lerninhalte wiedergeben.",
+    "… kennt wichtige christliche Feste."
+  ]
+
+}
